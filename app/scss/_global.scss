@@ -1,9 +1,20 @@
+html,
+body {
+	height: 100%;
+}
+
 body {
 	font-family: "Quicksand-500";
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.6;
+	line-height: 26 / 16 * 100%;
 	color: $default-color;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
 }
 
 .container {

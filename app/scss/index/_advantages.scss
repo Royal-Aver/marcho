@@ -1,0 +1,60 @@
+.advantages {
+	display: flex;
+
+	&__item {
+		padding: 160px 10px 60px;
+		width: 370px;
+		max-width: 100%;
+		box-shadow: 20px 0px 60px 0px rgba(202, 202, 202, 0.35);
+		margin-right: 30px;
+		transition: transform 0.7s;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+
+	&__content {
+		width: 290px;
+		max-width: 100%;
+		margin: 0 auto;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			top: -90px;
+			left: 0;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		&--free-shipping::before {
+			background-image: url(../../images/advantages/icon1.png);
+		}
+
+		&--easy-return::before {
+			background-image: url(../../images/advantages/icon2.png);
+		}
+
+		&--support::before {
+			background-image: url(../../images/advantages/icon3.png);
+		}
+	}
+
+	&__name {
+		font-family: "Roboto";
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 26 / 22 * 100%;
+		color: $title-color;
+		display: block;
+		margin-bottom: 10px;
+	}
+}

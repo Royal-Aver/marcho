@@ -32,4 +32,11 @@ main {
 	font-weight: 700;
 	font-size: 48px;
 	color: $title-color;
+	text-align: center;
+}
+
+.subtitle {
+	max-width: 530px;
+	margin: 0 auto 60px;
+	text-align: center;
 }

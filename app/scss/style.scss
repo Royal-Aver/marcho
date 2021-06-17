@@ -2,8 +2,11 @@
 @import "fonts";
 @import "reset";
 @import "global";
+@import "libs";
 
 @import "components/header";
+@import "index/slider-top";
+
 @import "components/footer";
 
 @import "components/btn-main";

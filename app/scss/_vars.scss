@@ -2,3 +2,10 @@ $default-color: #8d8d8d;
 $title-color: #29282d;
 $accent-color: #fe3e57;
 $bg-color: #f6f6f6;
+
+@function max($numbers...) {
+	@return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+	@return m#{i}n(#{$numbers});
+}

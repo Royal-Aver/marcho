@@ -1,0 +1,43 @@
+.trending {
+	padding: 120px 0;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__video {
+		width: 535px;
+		height: 480px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__content {
+		max-width: 570px;
+		padding-top: 80px;
+	}
+
+	&__subtitle {
+		display: block;
+		font-size: 22px;
+		line-height: 26 / 22 * 100%;
+		color: $accent-color;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	&__title {
+		text-transform: uppercase;
+		text-align: start;
+		margin-bottom: 35px;
+	}
+
+	&__text {
+		margin-bottom: 60px;
+	}
+}

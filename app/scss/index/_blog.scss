@@ -1,0 +1,28 @@
+.blog {
+	padding-bottom: 160px;
+
+	&__partners {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 120px 0;
+	}
+
+	&__title {
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	&__content {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	&__item {
+		margin-right: 30px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

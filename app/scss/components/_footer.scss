@@ -21,7 +21,7 @@
 	}
 
 	&__title {
-		margin-bottom: 30px;
+		margin-bottom: 15px;
 		font-weight: 500;
 		font-size: 22px;
 		line-height: 36 / 22 * 100%;
@@ -29,7 +29,7 @@
 	}
 
 	&__link {
-		line-height: 36 / 16 * 100%;
+		line-height: 32 / 16 * 100%;
 		transition: color 0.7s;
 
 		&:hover {
@@ -42,7 +42,7 @@
 	}
 
 	&__input {
-		margin-right: 10px;
+		margin-right: 5px;
 		border: none;
 		padding: 15px 10px 15px 20px;
 		width: 320px;
@@ -110,4 +110,8 @@
 			}
 		}
 	}
+}
+
+.logo__img--small {
+	width: 50%;
 }

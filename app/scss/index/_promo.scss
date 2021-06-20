@@ -13,14 +13,15 @@
 
 	&__content {
 		margin-left: 30px;
-		padding: 150px 0 160px;
+		padding: 155px 0 160px;
 		max-width: 580px;
 		text-align: center;
 	}
 
 	&__subtitle {
+		font-size: 22px;
 		display: block;
-		margin-bottom: 25px;
+		margin-bottom: 30px;
 		text-transform: uppercase;
 		color: $accent-color;
 	}
@@ -33,7 +34,7 @@
 
 .clock {
 	display: flex;
-	margin-bottom: 55px;
+	margin-bottom: 65px;
 
 	&__item {
 		display: flex;

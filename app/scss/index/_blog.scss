@@ -3,14 +3,14 @@
 
 	&__partners {
 		display: flex;
-		justify-content: space-around;
 		align-items: center;
+		justify-content: space-around;
 		padding: 120px 0;
 	}
 
 	&__title {
-		text-transform: uppercase;
 		margin-bottom: 20px;
+		text-transform: uppercase;
 	}
 
 	&__content {

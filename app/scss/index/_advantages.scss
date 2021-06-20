@@ -1,40 +1,40 @@
 .advantages {
+	position: relative;
 	display: flex;
 	margin-bottom: 115px;
-	position: relative;
 
 	&::before,
 	&::after {
 		content: "";
 		position: absolute;
-		background-repeat: no-repeat;
-		background-size: cover;
 		z-index: -1;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	&::before {
-		top: -50px;
 		left: -50px;
+		top: -50px;
 		width: 120px;
 		height: 121px;
 		background-image: url(../../images/advantages/Decor-left.svg);
 	}
 
 	&::after {
-		bottom: -23px;
 		right: -23px;
+		bottom: -23px;
 		width: 65px;
 		height: 52px;
 		background-image: url(../../images/advantages/decor-right.svg);
 	}
 
 	&__item {
-		background-color: #fff;
+		margin-right: 30px;
 		padding: 160px 10px 60px;
 		width: 370px;
 		max-width: 100%;
-		box-shadow: 20px 0px 60px 0px rgba(202, 202, 202, 0.35);
-		margin-right: 30px;
+		box-shadow: 20px 0 60px 0 rgba(202, 202, 202, 0.35);
+		background-color: #fff;
 		transition: transform 0.7s;
 
 		&:last-child {
@@ -47,20 +47,20 @@
 	}
 
 	&__content {
+		position: relative;
+		margin: 0 auto;
 		width: 290px;
 		max-width: 100%;
-		margin: 0 auto;
-		position: relative;
 
 		&::before {
 			content: "";
 			position: absolute;
+			left: 0;
+			top: -90px;
 			width: 60px;
 			height: 60px;
-			top: -90px;
-			left: 0;
-			background-repeat: no-repeat;
 			background-size: contain;
+			background-repeat: no-repeat;
 		}
 
 		&--free-shipping::before {
@@ -77,12 +77,12 @@
 	}
 
 	&__name {
+		display: block;
+		margin-bottom: 10px;
 		font-family: "Roboto";
 		font-weight: 400;
 		font-size: 22px;
 		line-height: 26 / 22 * 100%;
 		color: $title-color;
-		display: block;
-		margin-bottom: 10px;
 	}
 }

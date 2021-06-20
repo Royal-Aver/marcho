@@ -4,13 +4,13 @@ body {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	font-family: "Quicksand";
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 26 / 16 * 100%;
 	color: $default-color;
-	display: flex;
-	flex-direction: column;
 }
 
 main {
@@ -18,9 +18,9 @@ main {
 }
 
 .container {
-	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
+	max-width: 1200px;
 
 	&--big {
 		max-width: 1520px;
@@ -31,12 +31,12 @@ main {
 	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 48px;
-	color: $title-color;
 	text-align: center;
+	color: $title-color;
 }
 
 .subtitle {
-	max-width: 570px;
 	margin: 0 auto 60px;
+	max-width: 570px;
 	text-align: center;
 }

@@ -48,6 +48,18 @@
 		}
 	}
 
+	&__link {
+		path {
+			transition: fill 0.5s;
+		}
+
+		&:hover {
+			path {
+				fill: $accent-color;
+			}
+		}
+	}
+
 	&__num {
 		display: flex;
 		justify-content: center;

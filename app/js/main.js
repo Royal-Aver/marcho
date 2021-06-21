@@ -8,6 +8,10 @@ $(function () {
 		autoplaySpeed: 3000,
 	})
 
+	$('.burger').on('click', function () {
+		$('.header__list').toggleClass('header__list--active');
+	});
+
 	$(".star").rateYo({
 		starWidth: "17px",
 		normalFill: "#ccccce",

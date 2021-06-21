@@ -1,7 +1,21 @@
 .blog-card {
+	border: 1px solid rgb(236, 236, 236);
 	padding-bottom: 25px;
 	width: 370px;
-	box-shadow: 20px 0 60px 0 rgba(202, 202, 202, 0.35);
+	transition: border 0.5s, box-shadow 0.5s;
+
+	&:hover {
+		border-color: transparent;
+		box-shadow: 20px 0 60px 0 rgba(202, 202, 202, 0.35);
+
+		.blog-card__link-inner {
+			color: $accent-color;
+
+			path {
+				fill: $accent-color;
+			}
+		}
+	}
 
 	&__img-inner {
 		margin-bottom: 30px;
@@ -61,13 +75,6 @@
 
 		path {
 			transition: fill 0.7s;
-		}
-		&:hover {
-			color: $accent-color;
-
-			path {
-				fill: $accent-color;
-			}
 		}
 	}
 }

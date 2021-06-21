@@ -1,0 +1,22 @@
+.top {
+	&__inner {
+		margin: 0 auto;
+		padding: 130px 0;
+		max-width: 1700px;
+		text-align: center;
+		background-image: url(../../images/top/top-bg.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+		font-family: "Roboto";
+		font-weight: 400;
+		font-size: 48px;
+		line-height: 1;
+		text-transform: uppercase;
+		color: #15181d;
+	}
+}

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<header class="header">
+	<header class="header header--gray">
 		<div class="container">
 			<div class="header__inner">
 				<a class="logo" href="#">
@@ -100,66 +100,23 @@
 	</header>
 
 	<main>
-		<section class="top">
-			<div class="top__inner">
-				<h2 class="top__title">
-					register
-				</h2>
-				<div class="breadcrumbs">
-					<ul class="breadcrumbs__list">
-						<li class="breadcrumbs__item">
-							<a class="breadcrumbs__link" href="#">
-								Home
-							</a>
-						</li>
-
-						<li class="breadcrumbs__item">
-							<span class="breadcrumbs__link" href="#">
-								Register
-							</span>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-
-		<section class="modal">
+		<section class="page-404">
 			<div class="container">
-				<form class="authorization-form">
-					<div class="authorization-form__links">
-						<span class="authorization-form__link authorization-form__link--active">
-							register
-						</span>
-						<a class="authorization-form__link" href="#">
-							login
-						</a>
-					</div>
-					<label class="authorization-form__label">
-						Username or email address*
-						<input class="authorization-form__field" type="text" name="email" required>
-					</label>
-					<label class="authorization-form__label">
-						Password*
-						<input class="authorization-form__field" type="password" name="password" required>
-					</label>
-					<div class="authorization-form__text">
+				<div class="page-404__inner" style="background-image: url(images/page-404/bg-page-404.png);">
+					<span class="page-404__name title">
+						OPPS! Page Not Found!!
+					</span>
+					<div class="page-404__text">
 						<p>
-							A password will be sent to your email address.
-						</p>
-						<p>
-							Your personal data will be used to support your experience throughout this website, to manage access
-							to your account,
-							and for other purposes described in our privacy policy.
+							We,re sorry but we can’t seem to find the pages you request. This might be because you have typed the web
+							address not
+							find incorrectly.
 						</p>
 					</div>
-					<label class="authorization-form__label-checkbox">
-						<input class="authorization-form__checkbox" type="checkbox">
-						Agree with Terms & Conditions
-					</label>
-					<button class="authorization-form__btn" type="submit">
-						register
-					</button>
-				</form>
+					<a class="btn-main" href="#">
+						back to home
+					</a>
+				</div>
 			</div>
 		</section>
 

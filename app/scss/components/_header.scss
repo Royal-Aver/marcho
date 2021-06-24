@@ -1,6 +1,10 @@
 .header {
 	background-color: #fff;
 
+	&--gray {
+		background-color: $bg-color;
+	}
+
 	&__inner {
 		display: flex;
 		align-items: center;

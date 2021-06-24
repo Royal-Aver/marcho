@@ -1,0 +1,21 @@
+.page-404 {
+	&__inner {
+		padding: 260px 0 270px;
+		background-position: right center;
+		background-size: 50%;
+		background-repeat: no-repeat;
+	}
+
+	&__name {
+		display: block;
+		margin-bottom: 25px;
+		max-width: 530px;
+		color: #28384f;
+		line-height: 38 / 26 * 100%;
+	}
+
+	&__text {
+		margin-bottom: 60px;
+		max-width: 470px;
+	}
+}

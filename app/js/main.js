@@ -6,7 +6,35 @@ $(function () {
 		fade: true,
 		autoplay: true,
 		autoplaySpeed: 3000,
-	})
+	});
+
+	$('.shop__btn').on('click', function () {
+		$('.shop__btn').removeClass('shop__btn--active')
+		$(this).addClass('shop__btn--active');
+	});
+
+	$('.shop__btn--list').on('click', function () {
+		$('.card-product').addClass('card-product--list'),
+			$('.shop__item').addClass('shop__item--list')
+	});
+
+	$('.shop__btn--grid').on('click', function () {
+		$('.card-product').removeClass('card-product--list')
+		$('.shop__item').removeClass('shop__item--list')
+	});
+
+	$(".shop-price__input").ionRangeSlider({
+		type: "double",
+		prefix: "$",
+		onStart: function (data) {
+			$('.shop-price__from').text(data.from)
+			$('.shop-price__to').text(data.to)
+		},
+		onChange: function (data) {
+			$('.shop-price__from').text(data.from)
+			$('.shop-price__to').text(data.to)
+		},
+	});
 
 	$('.burger').on('click', function () {
 		$('.header__list').toggleClass('header__list--active');

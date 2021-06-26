@@ -3,6 +3,14 @@ $title-color: #29282d;
 $accent-color: #fe3e57;
 $bg-color: #f6f6f6;
 
+%checkbox-hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	clip: rect(0 0 0 0);
+}
+
 @function max($numbers...) {
 	@return m#{a}x(#{$numbers});
 }
